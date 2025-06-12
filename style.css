@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color--background: hsl(345,87%,4%);
+    --color--foreground: hsl(15,10%,90%);
+    --color--accent: hsl(13,76%,52%);
+    --color--accent-back: hsl(13,90%,12%);
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --color--background: hsl(345,13%,97%);
+    --color--foreground: hsl(15,87%,5%);
+    --color--accent: hsl(13,76%,52%);
+    --color--accent-back: hsl(13,45%,80%);
+  }
+}
+
+body {
+  background: var(--color--background);
+  color: var(--color--foreground);
+}
+
+.m-title-heading {
+  color: var(--color--accent);
+}
+
+.m-descriptors {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: inside ">> ";
+  gap: 0.5rem 1rem;
+  padding: 0;
+}
+
+.m-highlight-box {
+  background: var(--color--accent-back);
+  border: 0.2rem dotted var(--color--accent);
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
+
+.m-highlight-box__nomargin {
+  margin: 0;
+}
+
+.m-page-footer {
+  font-size: smaller;
+}
+
+.h-font-size--larger {
+  font-size: larger;
+}
+.h-vspace {
+  margin-top: 1rem;
+}
