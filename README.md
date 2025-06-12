@@ -2,15 +2,10 @@
 
 it's my site source files n shit!!!!!! yahooooo
 
-made with [hugo](https://gohugo.io). love ya, pal
-
 ## usage
 
-you'll probably want [hugo](https://gohugo.io).
-who doesn't?
-
-- run `hugo` in the root of the repo to build the site to file.
-- use `hugo serve` for live development.
+it's all just delicious handbaked html and css.
+clone the repo and go to town!!
 
 have fun!
 don't forget to share alike! (see copyleft)
